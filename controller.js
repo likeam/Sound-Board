@@ -4,7 +4,7 @@ sounds.forEach(sound => {
 	const btn = document.createElement('button')
 	btn.classList.add('btn');
 	let l =  174*(sound.length);
-	console.log(l);
+	
 	btn.innerText = sound
 	btn.style.backgroundColor = `#${l}`;
 
